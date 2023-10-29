@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #607680;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    padding: 20px;
+    background: white;
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+}
+
+#captchaText {
+    background-image: url("https://www.optacom.com/components/com_breezingforms/images/captcha/backgrounds/bg6.png");
+    font-size: 30px;
+    border: none;
+    outline: none;
+    margin-top: 15px;
+    width: 150px;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#captchaEnter {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 300px;
+    border: 2px solid rgb(97, 94, 94);
+    text-align: center;
+    display: block;
+}
+
+.btn {
+    color: white;
+    padding: 7px;
+    width: 150px;
+    height: 35px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#refreshbtn {
+    background: rgb(90, 104, 235);
+    border: 3px solid rgb(90, 104, 235);
+}
+
+#checkbtn {
+    background: #66ff99;
+    border: 3px solid #66ff99;
+}
